@@ -5,6 +5,7 @@
 import bs4
 import requests
 import json
+import urllib
 
 def get_soup(url):
     request_result = requests.get(url)
@@ -35,9 +36,10 @@ def run_bing():
     bing_json = "http://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&nc=1444634662901&pid=hp"
     result = requests.get(bing_json).text
     result_dict = json.loads(result)
-    Wow = result_dict.get("images")[0].get("url")
-    print Wow
-
+    img_url = result_dict.get("images")[0].get("url")
+    file_name = img_url.split("/")[-1]
+    urllib.urlretrieve(img_url, file_name)
+    print img_url+"\nsuccess"
 
 def main():
     choice = raw_input("输入选择（A:ONE一个 或者B:Bing）")
