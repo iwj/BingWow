@@ -10,6 +10,6 @@ FROM http://cn.bing.com
 
 #alpha 下载地址
 
-<a href="https://raw.githubusercontent.com/iwj/BingWow/master/alpha/BingWow.exe">BingWow.exe alpha</a>
+<a href="https://raw.githubusercontent.com/iwj/BingWow/master/alpha/BingWow.exe">BingWow.exe</a>
 
 使用方法：双击，即可直接下载源图到当前目录。
