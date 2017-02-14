@@ -1,5 +1,3 @@
-
-
 2015-10-12 J Woo <jentlewoo@gmail.com>
 
     *main.py (创建雏形)
@@ -11,3 +9,10 @@
 
     *main.py
     使用urllib下载Bing背景图片至当前路径
+
+
+2017-02-14 Jian Woo <jentlewoo@gmail.com>
+
+    #update for bing.com's new url regular
+
+    *delete some old files
