@@ -8,12 +8,12 @@ Get an amazing Picture everyday
 
 FROM http://cn.bing.com
 
-#alpha
+# alpha
 
 Can't work by old url regular.
 
 Deleted.
 
-#alpha.2
+# alpha.2
 
 coming soon.

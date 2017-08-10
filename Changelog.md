@@ -1,21 +1,23 @@
-2015-10-12 J Woo <jentlewoo@gmail.com>
 
-    *main.py (创建雏形)
-    可以抓取ONE一个的每期配图和Bing当天的背景
+2015-10-12 Jian Woo <jentlewoo@gmail.com>
+
+    * main.py (base)
+
+    * get the image from ONE and BING.com
+
+
+2015-10-14 Jian Woo <jentlewoo@gmail.com>
+
+    * main.py
+
+    * save the image by urllib
     
-
-
-2015-10-14 J Woo <jentlewoo@gmail.com>
-
-    *main.py
-    使用urllib下载Bing背景图片至当前路径
-
 
 2017-02-14 Jian Woo <jentlewoo@gmail.com>
 
-    #update for bing.com's new url regular
+    # update for bing.com s new url regular
 
-    *delete some old files
+    * delete some old files
 
 2017-02-21 Jian Woo <jentlewoo@gmail.com>
 

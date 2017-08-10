@@ -1,13 +1,14 @@
-# Just some NOTEs SKILLs
+# Just some NOTEs and SKILLs
 
-## install
-Linux下可以执行
+## how to install bs4
+
+for Linux
 apt-get install python-bs4  
 
-也可以用python的安装包工具来安装
+the other ways:
 1) easy_install beautifulsoup4  
 2) pip install beautifulsoup4 
 
-## save to file
+## how to save the resource to file
 
 [*] import urllib and use "urllib.urlretrieve"
